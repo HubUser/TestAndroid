@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="3pt"
+                android:id="@+id/avatar_bg"
+        >
+
+    <ImageView
+            android:id="@+id/avatar"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:contentDescription="contact"/>
+
+    <TextView
+            android:id="@+id/avatar_name"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/blue"
+            android:layout_toRightOf="@id/avatar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="6pt"
+            android:text="Loading.."
+            />
+
+
+
+</RelativeLayout>

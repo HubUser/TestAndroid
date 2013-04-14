@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingLeft="20px"
+              android:paddingRight="20px">
+
+    <ImageView android:layout_height="100px"
+              android:layout_width="100px"
+              android:id="@+id/avatarview"
+              android:layout_gravity="left"
+              android:src="@drawable/contact">
+    </ImageView>
+
+    <EditText
+            android:id="@+id/user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            />
+
+    <EditText
+            android:id="@+id/user_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Phone number"
+            />
+
+    <Button
+            android:id="@+id/choose_ringtone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose ringtone"
+            />
+
+    <Button
+            android:id="@+id/choose_avatar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose avatar"
+            />
+
+    <Button
+            android:id="@+id/send_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            />
+
+</LinearLayout>
+
