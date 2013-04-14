@@ -77,7 +77,7 @@ public class MyActivity extends Activity {
 
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("plain/text");
-                intent.putExtra(Intent.EXTRA_EMAIL, "welcome@onoapps.com");
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"welcome@onoapps.com", } );
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
                 intent.putExtra(Intent.EXTRA_TEXT, builder.toString());
 
